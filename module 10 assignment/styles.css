@@ -8,17 +8,17 @@
     box-sizing: border-box;
 }
 
-/* Optional font */
+
 body {
     font-family: "Mulish", sans-serif;
 }
 
-/* Flex helper */
+
 .display-flex {
     display: flex;
 }
 
-/* Navbar container */
+
 .navbar {
     display:flex;
     justify-content: space-between;
@@ -50,6 +50,41 @@ body {
 .nav-item a:first-child a {
     color: #1F1534;
     font-weight:700;
+}
+
+.hero 
+{ 
+    display: flex; 
+    justify-content: 
+    space-between; align-items: 
+    center; padding: 60px 120px; 
+} 
+.hero-text { 
+    max-width: 450px; 
+} 
+.hero-text h1 { 
+    font-size: 42px; 
+    font-weight: 700;
+    color: #000; 
+    margin-bottom: 20px; 
+ } 
+.hero-text p 
+ { 
+    font-size: 18px; 
+    color: #7D7987; 
+    margin-bottom: 30px; 
+} 
+.btn {
+     background-color: #458FF6; 
+     color: white; 
+     border: none; 
+     padding: 12px 28px; 
+     border-radius: 25px; 
+     font-size: 16px; 
+     cursor: pointer;
+     } 
+.hero-img img { 
+    width: 500px; 
 }
 
 
